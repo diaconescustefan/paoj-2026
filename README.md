@@ -1,10 +1,18 @@
-# PAOJ 2026
+# PAOJ 2026 - Sistem de Gestiune Stocuri Magazin (Etapa I)
 
 Materiale și resurse pentru cursul **Programare Avansată pe Obiecte în Java** — 2026.
 
 ---
 
-## Proiect
+## 📦 Proiect: Gestiune Stocuri Magazin
+
+Sistem de gestiune stocuri pentru un magazin, implementat în Java fără JDBC sau bază de date. 
+
+**Locație**: `src/com/pao/proiect/magazin/`
+
+---
+
+## Cerințe Inițiale
 
 📁 **[Cerințe proiect individual](src/com/pao/project/README.md)** — Etapa I (24 apr) · Etapa II (5 iun)
 
@@ -366,3 +374,4 @@ java com.pao.laboratory01.Main
 | Compilare (cu pachet, din `src/`) | `javac com/pao/lab01/Main.java` |
 | Rulare (cu pachet, din `src/`)    | `java com.pao.lab01.Main`       |
 
+ 

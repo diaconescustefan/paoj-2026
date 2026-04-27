@@ -1,0 +1,73 @@
+package com.pao.proiect.magazin.model;
+
+import java.util.Objects;
+
+public class Furnizor {
+    
+    private int id;
+    private String nume;
+    private String telefon;
+    private String email;
+    
+    public Furnizor(int id, String nume, String telefon, String email) {
+        this.id = id;
+        this.nume = nume;
+        this.telefon = telefon;
+        this.email = email;
+    }
+    
+    public int getId() {
+        return id;
+    }
+    
+    public void setId(int id) {
+        this.id = id;
+    }
+    
+    public String getNume() {
+        return nume;
+    }
+    
+    public void setNume(String nume) {
+        this.nume = nume;
+    }
+    
+    public String getTelefon() {
+        return telefon;
+    }
+    
+    public void setTelefon(String telefon) {
+        this.telefon = telefon;
+    }
+    
+    public String getEmail() {
+        return email;
+    }
+    
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    
+    @Override
+    public String toString() {
+        return "Furnizor{" +
+                "id=" + id +
+                ", nume='" + nume + '\'' +
+                ", telefon='" + telefon + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
+    
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Furnizor furnizor = (Furnizor) o;
+        return id == furnizor.id;
+    }
+    
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
+    }
+}
