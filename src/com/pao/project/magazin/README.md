@@ -5,16 +5,16 @@ clientilor, angajatilor si comenzilor.
 
 ## Actiuni
 
-1. Adauga categorie.
-2. Adauga furnizor.
-3. Adauga produs.
-4. Actualizeaza sau sterge produs.
-5. Cauta produs dupa cod.
-6. Listeaza produsele sortate.
-7. Afiseaza produsele unei categorii.
+1. Adauga o categorie.
+2. Adauga un furnizor.
+3. Adauga un produs.
+4. Actualizeaza un produs.
+5. Sterge un produs.
+6. Cauta un produs dupa cod.
+7. Listeaza produsele sortate.
 8. Afiseaza produsele cu stoc mic.
-9. Adauga si listeaza clienti.
-10. Plaseaza comanda si genereaza rapoarte de vanzari.
+9. Adauga si listeaza clientii.
+10. Plaseaza o comanda si genereaza rapoarte de vanzari.
 
 ## Obiecte
 
